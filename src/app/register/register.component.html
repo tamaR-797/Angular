@@ -1,0 +1,14 @@
+<h2>רישום מנוי</h2>
+
+<form (ngSubmit)="submit()">
+  <label>שם:</label><br>
+  <input [(ngModel)]="name" name="name" required><br><br>
+
+  <label>טלפון:</label><br>
+  <input [(ngModel)]="phone" name="phone"><br><br>
+
+  <label>מייל:</label><br>
+  <input [(ngModel)]="email" name="email"><br><br>
+
+  <button type="submit">שלח</button>
+</form>
